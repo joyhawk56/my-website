@@ -17,6 +17,12 @@ header > p {
     font-style: italic; /*style font*/
 }
 
+/*COMBINATION SELECTOR*/
+section ol li {
+    list-style-type: none;
+    color: #0073e6;
+}
+
 /*PSEUDO-CLASS ELEMENT */
 a:hover {
     color: #ff0000;
