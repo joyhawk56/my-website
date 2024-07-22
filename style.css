@@ -1,0 +1,23 @@
+/*TYPE SELECTOR*/
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+/*ID SELECTOR*/
+#main_content {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/*RELATIONAL SELECTOR (child selector)*/
+header > p {
+    font-style: italic;
+}
+
+/*PSEUDO-CLASS ELEMENT */
+a:hover {
+    color: #ff0000;
+}
+    
+
