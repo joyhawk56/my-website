@@ -1,8 +1,8 @@
-/*TYPE SELECTOR*/
+/*TYPE SELECTOR and RELATIVE UNIT OF MEASUREMENT*/
 h1 {
-    color: navy;
+    color: #000080;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*style font*/
     font-size: 2em;  /*relative unit of measurement*/
 }
 
@@ -14,7 +14,7 @@ h1 {
 
 /*RELATIONAL SELECTOR (child selector)*/
 header > p {
-    font-style: italic;
+    font-style: italic; /*style font*/
 }
 
 /*PSEUDO-CLASS ELEMENT */
