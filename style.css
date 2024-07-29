@@ -8,13 +8,19 @@ h1 {
 
 /*ID SELECTOR*/
 #main_content {
-    background-color: #f0f0f0;
+    background: linear-gradient(45deg, white 0%, #a9a9a9 100%);
     padding: 20px;
+    border: 1px solid darkgrey;
 }
-
+article {
+    column-count: 3; 
+    column-gap: 35px;
+    column-rule: 2px solid #000000;
+}
 /*RELATIONAL SELECTOR (child selector)*/
-header > p {
+header {
     font-style: italic; /*style font*/
+    padding: 20px;
 }
 
 /*COMBINATION SELECTOR*/
